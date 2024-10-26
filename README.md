@@ -1,4 +1,4 @@
-# Anirudh-Kulkarni.github.io
+# My Portfolio Website
 
 
 👋 Hi there, I’m Anirudh (Ani) Kulkarni and welcome to my website https://anirudh-kulkarni.github.io. 
