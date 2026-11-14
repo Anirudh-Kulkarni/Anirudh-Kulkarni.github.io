@@ -3163,11 +3163,15 @@ input, select, textarea {
 				padding: 0 0.125em 0 0.375em;
 			}
 
-			#header .logo:hover strong {
+			#header .logo a {
+				border-bottom: 0;
+			}
+
+			#header .logo a:hover strong {
 				background-color: #9bf1ff;
 			}
 
-			#header .logo:active strong {
+			#header .logo a:active strong {
 				background-color: #53e3fb;
 			}
 

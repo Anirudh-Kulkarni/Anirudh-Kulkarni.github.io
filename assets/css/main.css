@@ -1488,10 +1488,19 @@ input, select, textarea {
 			line-height: 5.5rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
+			text-align: center;
 		}
 
 			#header .logo .icon:before {
 				font-size: 2rem;
+			}
+
+			#header .logo img,
+			#header .logo svg {
+				display: inline-block;
+				vertical-align: middle;
+				width: 2.25rem;
+				height: 2.25rem;
 			}
 
 		#header .content {

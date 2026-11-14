@@ -668,6 +668,7 @@ input, select, textarea {
 		display: flex;
 		background-color: #2a2f4a;
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.15);
+		color: #ffffff;
 		cursor: default;
 		font-weight: 600;
 		height: 3.25em;
@@ -679,7 +680,7 @@ input, select, textarea {
 		text-transform: uppercase;
 		top: 0;
 		width: 100%;
-		z-index: 10000;
+		z-index: 10002;
 	}
 
 		#header .logo {
@@ -704,11 +705,15 @@ input, select, textarea {
 				padding: 0 0.125em 0 0.375em;
 			}
 
-			#header .logo:hover strong {
+			#header .logo a {
+				border-bottom: 0;
+			}
+
+			#header .logo a:hover strong {
 				background-color: #9bf1ff;
 			}
 
-			#header .logo:active strong {
+			#header .logo a:active strong {
 				background-color: #53e3fb;
 			}
 
