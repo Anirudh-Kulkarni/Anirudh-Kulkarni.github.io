@@ -6,86 +6,250 @@
 -->
 <html>
 	<head>
-		<title>Miscellaneous</title>
+		<title>Hobbies &amp; Outreach | Anirudh Kulkarni</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="../assets/css/misc.css" />
 		<noscript><link rel="stylesheet" href="../assets/css/misc-noscript.css" /></noscript>
+		<style>
+			#wrapper > * > .inner,
+			.section-container,
+			.gallery-header {
+				max-width: none;
+				width: calc(100% - 6em);
+				margin: 0 auto;
+			}
+			.section-container {
+				padding: 3em 0 2em 0;
+			}
+			.section-container header.major {
+				margin-bottom: 1.75em;
+			}
+			.outreach-grid {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+				gap: 1.75em;
+				margin-bottom: 1em;
+				width: 100%;
+			}
+			.outreach-card {
+				background: rgba(255, 255, 255, 0.04);
+				border: 1px solid rgba(255, 255, 255, 0.12);
+				border-top: 3px solid #6fc3df;
+				padding: 2em;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+			}
+			.outreach-card:nth-child(2) {
+				border-top-color: #8d82c4;
+			}
+			.outreach-card:nth-child(3) {
+				border-top-color: #ec8d81;
+			}
+			.outreach-card:nth-child(4) {
+				border-top-color: #87c5a4;
+			}
+			.outreach-card h3 {
+				margin: 0 0 0.65em 0;
+			}
+			.outreach-card p {
+				margin: 0 0 1em 0;
+			}
+			.outreach-card ul:not(.actions) {
+				margin: 0 0 1.25em 0;
+				padding-left: 1.25em;
+			}
+			.outreach-card ul:not(.actions) li {
+				margin-bottom: 0.35em;
+			}
+			.outreach-card ul.actions {
+				margin-bottom: 0;
+				flex-wrap: wrap;
+				row-gap: 0.65em;
+			}
+			.gallery-header {
+				padding: 1em 0 1.5em 0;
+			}
+			#main {
+				width: calc(100% - 6em);
+				margin: 0 auto 3em auto;
+			}
+			#main .thumb {
+				width: 33.33333%;
+			}
+			@media screen and (max-width: 980px) {
+				.outreach-grid {
+					grid-template-columns: 1fr;
+				}
+				#main .thumb {
+					width: 50%;
+				}
+			}
+			@media screen and (max-width: 736px) {
+				#wrapper > * > .inner,
+				.section-container,
+				.gallery-header,
+				#main {
+					width: calc(100% - 3em);
+				}
+				.section-container, .gallery-header {
+					padding: 2em 0 1em 0;
+				}
+				#main .thumb {
+					width: 100%;
+				}
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
 		<!-- Wrapper -->
 			<div id="wrapper">
 
-
 					<header id="header" class="alt">
 						<span class="logo"><a href="../index.html" style="border-bottom: none;"><strong>Go back</strong></a> <span>to my home page.</span></span>
 					</header>
-
-
 
 				<!-- Banner -->
 					<section id="banner" class="major">
 						<div class="inner">
 							<header class="major">
-								<h1>Welcome to my hobbies page.</h1>
+								<h1>Hobbies, Outreach, and Mentoring</h1>
 							</header>
 							<div class="content">
-								<p> I enjoy taking photographs, creating amateur art amongst other things . <br />
-								Check out my <a href="https://www.instagram.com/instantwarhol/" target="_blank">Instagram page</a> for more.</p>
+								<p>Outside of work, I enjoy science communication, museum guiding, mentoring students, and exploring photography, art, and cooking.<br /><br />
+								Explore my outreach work and creative gallery below.</p>
 								<ul class="actions">
-									<li><a href="#main" class="button next scrolly">Check it out.</a></li>
+									<li><a href="#outreach" class="button next scrolly">Explore</a></li>
 								</ul>
 							</div>
 						</div>
 					</section>
-				<!-- Main -->
+
+				<!-- Outreach, Blog & Mentoring Section -->
+					<section id="outreach" class="section-container">
+						<header class="major">
+							<h2>Science Communication, Volunteering, and Mentoring</h2>
+						</header>
+						<div class="outreach-grid">
+
+							<div class="outreach-card">
+								<div>
+									<h3>Science Blog</h3>
+									<p>I wrote a popular science blog on Medium (15+ articles) explaining topics in neuroscience, AI, astrophysics, and human perception in plain language.</p>
+								</div>
+								<ul class="actions">
+									<li><a href="blog.html" class="button small">Featured Articles</a></li>
+									<li><a href="https://medium.com/@vigyaan" target="_blank" class="button small">Medium (@vigyaan)</a></li>
+								</ul>
+							</div>
+
+							<div class="outreach-card">
+								<div>
+									<h3>Science Museum Volunteering</h3>
+									<p>As a Science Museum Group Volunteer Guide, I lead tours for museum visitors (30+ tours for 300+ visitors so far, including two tours I designed from scratch):</p>
+									<ul>
+										<li><a href="https://www.sciencemuseum.org.uk/see-and-do/information-age" target="_blank">Information Age Gallery</a> (current tour)</li>
+										<li><a href="https://www.sciencemuseum.org.uk/see-and-do/zimingzhong" target="_blank">Zimingzhong: Clockwork Treasures from China's Forbidden City</a> (past exhibition tour)</li>
+										<li><a href="https://www.sciencemuseum.org.uk/see-and-do/versailles-science-and-splendour" target="_blank">Versailles: Science and Splendour</a> (past exhibition tour)</li>
+									</ul>
+								</div>
+								<ul class="actions">
+									<li><a href="https://www.sciencemuseum.org.uk/see-and-do/information-age" target="_blank" class="button small">Information Age</a></li>
+									<li><a href="https://www.sciencemuseum.org.uk/see-and-do/zimingzhong" target="_blank" class="button small">Zimingzhong</a></li>
+									<li><a href="https://www.sciencemuseum.org.uk/see-and-do/versailles-science-and-splendour" target="_blank" class="button small">Versailles</a></li>
+								</ul>
+							</div>
+
+							<div class="outreach-card">
+								<div>
+									<h3>Public Engagement Workshops</h3>
+									<p>I organised interactive public workshops showing how visual and auditory illusions reveal the workings of the brain, including events at the <a href="https://www.greatexhibitionroadfestival.co.uk/" target="_blank">Great Exhibition Road Festival</a> and <a href="https://www.imperial.ac.uk/be-inspired/lates/" target="_blank">Imperial Lates</a> (100+ attendees).</p>
+								</div>
+								<ul class="actions">
+									<li><a href="https://medium.com/@vigyaan/what-illusions-teach-us-about-the-brain-cb36829f452f" target="_blank" class="button small">Article on Illusions</a></li>
+									<li><a href="https://www.greatexhibitionroadfestival.co.uk/" target="_blank" class="button small">Exhibition Road Festival</a></li>
+									<li><a href="https://www.imperial.ac.uk/be-inspired/lates/" target="_blank" class="button small">Imperial Lates</a></li>
+								</ul>
+							</div>
+
+							<div class="outreach-card">
+								<div>
+									<h3>Teaching &amp; Mentoring</h3>
+									<p>An Associate Fellow of the Higher Education Academy (AFHEA), I taught and mentored students across mathematics, programming, and language:</p>
+									<ul>
+										<li>Four university courses at Imperial College London (Probability and Statistics, Computational Neuroscience, Reinforcement Learning, and Brain-Machine Interfaces)</li>
+										<li>40 A-level Further Mathematics students (Imperial Outreach)</li>
+										<li>English learners with ENGin and machine learning students at <a href="https://girlswhoml.com" target="_blank">GirlsWhoML</a></li>
+									</ul>
+								</div>
+								<ul class="actions">
+									<li><a href="https://www.advance-he.ac.uk/fellowship/associate-fellowship" target="_blank" class="button small">Advance HE (AFHEA)</a></li>
+								</ul>
+							</div>
+
+						</div>
+					</section>
+
+				<!-- Photography, Art & Cooking Gallery -->
+					<section id="gallery" class="gallery-header">
+						<header class="major">
+							<h2>Photography, Art, and Cooking</h2>
+						</header>
+						<p>I enjoy wildlife and nature photography, marbling art, portrait drawing, and cooking (and photographing what I make!).</p>
+						<p>Check out my <a href="https://www.instagram.com/instantwarhol/" target="_blank">Instagram (@instantwarhol)</a> for more, or click any photo below to view it full-size.</p>
+					</section>
+
+				<!-- Main Lightbox Grid -->
 					<div id="main">
 						<article class="thumb">
-							<a href="../images/misc/fulls/01.jpg" class="image"><img src="../images/misc/thumbs/01.jpg" alt="" /></a>
-							<h2>Illusions workshop</h2>
-							<p>I organized a public engagement workshop on how illusions can teach us workings of the brain. This was in collaboration with Nick, Mathilde, Mimmi and James at Imperial College London Lates and GERF. <a href="https://medium.com/@vigyaan/what-illusions-teach-us-about-the-brain-cb36829f452f" target="_blank">Read more here.</a></p>
+							<a href="../images/misc/fulls/02.jpg" class="image"><img src="../images/misc/thumbs/02.jpg" alt="St. James's Park Photography" /></a>
+							<h2>Nature Photography</h2>
+							<p>I love experimenting with my camera outdoors, like on this sunny winter day at St. James's Park, London.</p>
 						</article>
 						<article class="thumb">
-							<a href="../images/misc/fulls/02.jpg" class="image"><img src="../images/misc/thumbs/02.jpg" alt="" /></a>
-							<h2>Photography</h2>
-							<p>I enjoy experimenting with my camera to take better pictures. This was on a sunny January day at Saint James Park, London.</p>
+							<a href="../images/misc/fulls/05.jpg" class="image"><img src="../images/misc/thumbs/05.jpg" alt="Bird in mid-flight" /></a>
+							<h2>Wildlife Photography</h2>
+							<p>Nothing is quite as exciting as capturing a bird in mid-flight.</p>
 						</article>
 						<article class="thumb">
-							<a href="../images/misc/fulls/03.jpg" class="image"><img src="../images/misc/thumbs/03.jpg" alt="" /></a>
-							<h2>Food</h2>
-							<p>I enjoy making food, photographing it and then eating it.</p>
+							<a href="../images/misc/fulls/03.jpg" class="image"><img src="../images/misc/thumbs/03.jpg" alt="Food Photography" /></a>
+							<h2>Cooking &amp; Food Photography</h2>
+							<p>I enjoy cooking, photographing the dish, and then eating it.</p>
 						</article>
 						<article class="thumb">
-							<a href="../images/misc/fulls/04.jpg" class="image"><img src="../images/misc/thumbs/04.jpg" alt="" /></a>
-							<h2>Marbling art</h2>
-							<p>I like trying my hands on different kinds of art for the fun of it.</p>
+							<a href="../images/misc/fulls/04.jpg" class="image"><img src="../images/misc/thumbs/04.jpg" alt="Marbling Art" /></a>
+							<h2>Marbling Art</h2>
+							<p>I enjoy exploring different visual art styles like paper marbling.</p>
 						</article>
 						<article class="thumb">
-							<a href="../images/misc/fulls/05.jpg" class="image"><img src="../images/misc/thumbs/05.jpg" alt="" /></a>
-							<h2>More photography</h2>
-							<p>Nothing as exciting as capturing a bird in mid-flight.</p>
+							<a href="../images/misc/fulls/06.jpg" class="image"><img src="../images/misc/thumbs/06.jpg" alt="Portrait Drawing" /></a>
+							<h2>Portrait Drawing</h2>
+							<p>Portrait sketch of one of my favourite TV characters, Anne Shirley Cuthbert from "Anne with an E".</p>
 						</article>
 						<article class="thumb">
-							<a href="../images/misc/fulls/06.jpg" class="image"><img src="../images/misc/thumbs/06.jpg" alt="" /></a>
-							<h2>Portrait drawing</h2>
-							<p>More amateur art here. This is one of my favourite TV characters-Anne Shirley Cuthbert from the series "Anne with an E".</p>
+							<a href="../images/misc/fulls/01.jpg" class="image"><img src="../images/misc/thumbs/01.jpg" alt="Illusions Workshop" /></a>
+							<h2>Illusions Workshop</h2>
+							<p>Interactive public workshop on how illusions help us understand the brain, run with Nick, Mathilde, Mimmi, and James at <a href="https://www.imperial.ac.uk/be-inspired/lates/" target="_blank">Imperial Lates</a> and the <a href="https://www.greatexhibitionroadfestival.co.uk/" target="_blank">Great Exhibition Road Festival</a>. <a href="https://medium.com/@vigyaan/what-illusions-teach-us-about-the-brain-cb36829f452f" target="_blank">Read more here.</a></p>
 						</article>
-						
-
 					</div>
-
-
 
 			</div>
 
 		<!-- Scripts -->
 			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
 			<script src="../assets/js/jquery.poptrox.min.js"></script>
 			<script src="../assets/js/browser.min.js"></script>
 			<script src="../assets/js/breakpoints.min.js"></script>
 			<script src="../assets/js/util.js"></script>
 			<script src="../assets/js/misc.js"></script>
+			<script>
+				$('.scrolly').scrolly({
+					offset: function() { return $('#header').height(); }
+				});
+			</script>
 
 	</body>
 </html>

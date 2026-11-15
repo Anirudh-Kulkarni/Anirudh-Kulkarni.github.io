@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 @import url("fontawesome-all.min.css");
 
 /*
@@ -128,37 +128,42 @@ input, select, textarea {
 
 		}
 
-	body, input, select, textarea {
-		font-family: 'Source Sans Pro';
-		font-weight: 400;
-		padding: 0;
-		font-size: 13pt;
-		color: rgba(255, 255, 255, 0.6);
+	html {
+		font-size: 16pt;
 	}
 
 		@media screen and (max-width: 1680px) {
 
-			body, input, select, textarea {
+			html {
+				font-size: 12pt;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			html {
 				font-size: 11pt;
 			}
 
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 360px) {
 
-			body, input, select, textarea {
+			html {
 				font-size: 10pt;
 			}
 
 		}
 
-		@media screen and (max-width: 980px) {
-
-			body, input, select, textarea {
-				font-size: 11pt;
-			}
-
-		}
+	body, input, select, textarea {
+		font-family: "Source Sans Pro", sans-serif;
+		font-weight: 300;
+		padding: 0;
+		font-size: 1rem;
+		line-height: 1.65;
+		color: #ffffff;
+	}
 
 	a {
 		color: #fff;
@@ -175,14 +180,33 @@ input, select, textarea {
 		}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 400;
-		color: #fff;
-		letter-spacing: -0.05em;
+		font-weight: 600;
+		color: #ffffff;
+		line-height: 1.5;
+		text-transform: uppercase;
+		letter-spacing: 0.2rem;
+	}
+
+	h1 {
+		font-size: 2.25rem;
+		line-height: 1.3;
+		letter-spacing: 0.25rem;
+	}
+
+	h2 {
+		font-size: 1.5rem;
+		line-height: 1.4;
+		letter-spacing: 0.2rem;
+	}
+
+	h3 {
+		font-size: 1.15rem;
+		line-height: 1.45;
+		letter-spacing: 0.15rem;
 	}
 
 	strong, b {
-		color: #fff;
-		color: rgba(255, 255, 255, 0.85);
+		color: #ffffff;
 		font-weight: 600;
 	}
 
@@ -415,19 +439,25 @@ input, select, textarea {
 				-webkit-justify-content: center;
 				-ms-justify-content: center;
 				justify-content: center;
-				padding: 1em 3em;
+				padding: 1.25em 2em;
+				overflow: hidden;
 			}
 
 				#main .item.intro h1 {
-					font-size: 3em;
-					line-height: 1em;
+					font-size: 1.5rem;
+					line-height: 1.25;
+					letter-spacing: 0.15rem;
+					margin: 0;
 				}
 
 				#main .item.intro p {
-					font-size: 1.25em;
-					line-height: 1.5em;
-					margin: 0.5em 0 0 0;
-					opacity: 0.65;
+					font-size: 0.85rem;
+					font-weight: 300;
+					letter-spacing: 0.05rem;
+					line-height: 1.45;
+					text-transform: none;
+					margin: 0.65em 0 0 0;
+					opacity: 0.9;
 				}
 
 			#main .item.thumb {
@@ -444,8 +474,10 @@ input, select, textarea {
 					background: rgba(18, 21, 29, 0.85);
 					width: 100%;
 					padding: 1em;
-					font-weight: 400;
-					line-height: 1em;
+					font-size: 0.85rem;
+					font-weight: 600;
+					letter-spacing: 0.15rem;
+					line-height: 1.4;
 					z-index: 2;
 				}
 
@@ -543,6 +575,14 @@ input, select, textarea {
 					width: 34em;
 				}
 
+				#main .item.intro h1 {
+					font-size: 1.35rem;
+				}
+
+				#main .item.intro p {
+					font-size: 0.8rem;
+				}
+
 		}
 
 		@media screen and (max-width: 736px) {
@@ -591,11 +631,11 @@ input, select, textarea {
 					}
 
 						#main .item.intro h1 {
-							font-size: 2em;
+							font-size: 1.75rem;
 						}
 
 						#main .item.intro p {
-							font-size: 1em;
+							font-size: 0.85rem;
 						}
 
 					#main .item.thumb h2 {

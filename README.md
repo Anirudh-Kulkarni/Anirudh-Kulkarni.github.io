@@ -8,20 +8,19 @@ This repository (and website) showcases my work, research, and interests. Here�
 ## Sections
 
 ### Intro
-In this section, you’ll find an overview of my background, skills, and professional journey. I currently write documentation for cloud-related products at MathWorks, including offerings related to Amazon Web Services, Microsoft Azure, and Docker. In this role, I translate complex technical concepts into clear, user-friendly content. I have also written a few workflows related to machine learning and deep learning in the cloud. In my previous job, I worked in research on the brain. Check out my research page for some accessible readings of my research.
+In this section, you’ll find an overview of my background, skills, and professional journey—combining my role as a Senior Technical Writer at MathWorks (cloud, containers, and agentic AI), my part-time MBA at Imperial College Business School, and my PhD and postdoctoral research in computational neuroscience.
 
+### Technical Writing
+Explore selected work samples from my documentation, information architecture, video production, and AI tooling work at MathWorks (`pages/writing.html`).
 
 ### Projects
-Explore my data science projects, where I showcase a variety of work that demonstrates my skills and creativity. Each project includes a description, technologies used, and links to live demos or repositories.
+Explore my data science and software projects (`pages/projects.html`), where I showcase work across machine learning, NLP, and web applications with links to GitHub repositories.
 
 ### Research
-In my previous job, I have researched in computational and experimental neuroscience. Check out my research page for some accessible readings of my research. 
+In my previous roles at Imperial College London, INSERM, and ENS Paris, I researched computational and experimental neuroscience (`pages/research.html`).
 
-### Blog
-In my free time, I like to engage in science dissemination and maintain a [Science Blog on Medium](https://medium.com/@vigyaan) to that end. 
-
-### Hobbies
-Learn more about my hobbies and interests outside of work. This section gives a glimpse into my personality and the activities that inspire me.
+### Hobbies, Outreach & Mentoring
+Learn more about my science communication (Science Museum volunteer guiding, public illusions workshops, and my [Science Blog on Medium](https://medium.com/@vigyaan)), teaching and mentoring, and my photography, visual art, and cooking (`pages/misc.html` and `pages/blog.html`).
 
 ### Contact
 Feel free to reach out! In this section, you’ll find my contact information and links to my social media profiles. I welcome collaboration, questions, or just a friendly chat.

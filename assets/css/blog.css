@@ -114,18 +114,13 @@ input, select, textarea {
 
 /* Type */
 
-	body, input, select, textarea {
-		color: #ffffff;
-		font-family: "Source Sans Pro", sans-serif;
-		font-size: 1rem;
-		font-weight: 300;
-		letter-spacing: 0.025em;
-		line-height: 1.65;
+	html {
+		font-size: 16pt;
 	}
 
 		@media screen and (max-width: 1680px) {
 
-			body, input, select, textarea {
+			html {
 				font-size: 12pt;
 			}
 
@@ -133,7 +128,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
-			body, input, select, textarea {
+			html {
 				font-size: 11pt;
 			}
 
@@ -141,11 +136,19 @@ input, select, textarea {
 
 		@media screen and (max-width: 360px) {
 
-			body, input, select, textarea {
+			html {
 				font-size: 10pt;
 			}
 
 		}
+
+	body, input, select, textarea {
+		color: #ffffff;
+		font-family: "Source Sans Pro", sans-serif;
+		font-size: 1rem;
+		font-weight: 300;
+		line-height: 1.65;
+	}
 
 	a {
 		-moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
@@ -168,7 +171,7 @@ input, select, textarea {
 
 	strong, b {
 		color: #ffffff;
-		font-weight: 300;
+		font-weight: 600;
 	}
 
 	em, i {
@@ -197,17 +200,19 @@ input, select, textarea {
 	h1 {
 		font-size: 2.25rem;
 		line-height: 1.3;
-		letter-spacing: 0.5rem;
+		letter-spacing: 0.25rem;
 	}
 
 	h2 {
 		font-size: 1.5rem;
 		line-height: 1.4;
-		letter-spacing: 0.5rem;
+		letter-spacing: 0.2rem;
 	}
 
 	h3 {
-		font-size: 1rem;
+		font-size: 1.15rem;
+		line-height: 1.45;
+		letter-spacing: 0.15rem;
 	}
 
 	h4 {
@@ -225,15 +230,17 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		h1 {
-			font-size: 2em;
+			font-size: 1.75rem;
+			line-height: 1.35;
 		}
 
 		h2 {
-			font-size: 1.5em;
+			font-size: 1.25rem;
+			line-height: 1.45;
 		}
 
 		h3 {
-			font-size: 1.25em;
+			font-size: 1.05rem;
 		}
 
 	}
@@ -1795,9 +1802,10 @@ input, select, textarea {
 			}
 
 		header.major > p {
-			font-size: 0.7em;
+			font-size: 0.85rem;
 			font-weight: 600;
-			letter-spacing: 0.25em;
+			letter-spacing: 0.2rem;
+			line-height: 1.65;
 			margin-bottom: 0;
 			text-transform: uppercase;
 		}
@@ -2768,7 +2776,9 @@ input, select, textarea {
 			}
 
 			.tiles article h3 {
-				font-size: 1.75em;
+				font-size: 1.5rem;
+				line-height: 1.4;
+				letter-spacing: 0.2rem;
 			}
 
 				.tiles article h3 a:hover {
@@ -2894,7 +2904,7 @@ input, select, textarea {
 			}
 
 				.tiles article h3 {
-					font-size: 1.5em;
+					font-size: 1.25rem;
 				}
 
 		}
@@ -4882,7 +4892,7 @@ input, select, textarea {
 		}
 
 		#banner h1 {
-			font-size: 3.25em;
+			font-size: 2.25rem;
 		}
 
 		#banner > .inner {
@@ -4933,9 +4943,10 @@ input, select, textarea {
 				}
 
 				#banner > .inner .content p {
-					font-size: 0.7em;
+					font-size: 0.85rem;
 					font-weight: 600;
-					letter-spacing: 0.25em;
+					letter-spacing: 0.2rem;
+					line-height: 1.65;
 					text-transform: uppercase;
 				}
 
@@ -5009,7 +5020,7 @@ input, select, textarea {
 			}
 
 				#banner h1 {
-					font-size: 2em;
+					font-size: 1.75rem;
 				}
 
 				#banner > .inner .content {
